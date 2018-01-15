@@ -1,0 +1,19 @@
+{
+  "name": "personal-eslint-rules",
+  "version": "1.0.0",
+  "description": "My personal coding rules / styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/major-mann/personal-eslint-rules.git"
+  },
+  "author": "Calvin Mann <calvinmann@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/major-mann/personal-eslint-rules/issues"
+  },
+  "homepage": "https://github.com/major-mann/personal-eslint-rules#readme"
+}

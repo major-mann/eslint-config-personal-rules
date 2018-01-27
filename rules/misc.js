@@ -1,9 +1,7 @@
 module.exports = {
     rules: {
-        strict: [
-            2,
-            'safe'
-        ],
+        // Note: We go with impliedStrict
+        strict: 0,
         'no-restricted-syntax': [
             2,
             // Instead of deprecating new they added class :( :( :(

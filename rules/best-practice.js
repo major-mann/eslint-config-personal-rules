@@ -51,7 +51,7 @@ module.exports = {
         'no-loop-func': 2,
         'no-magic-numbers': [
             2,
-            { ignore: [0, 1, 2] }
+            { ignore: [0, 1, -1, 2, 10, 100, 1000] }
         ],
         'no-multi-spaces': 2,
         'no-multi-str': 2,

@@ -1,7 +1,8 @@
 module.exports = {
     parser: 'espree',
     parserOptions: {
-        ecmaVersion: 6
+        impliedStrict: true,
+        ecmaVersion: 2017
     },
     env: {
         browser: true,
@@ -15,6 +16,6 @@ module.exports = {
         './rules/best-practice.js',
         './rules/variables.js',
         './rules/node.js',
-        './rules/style.js',
-    ].map(require.resolve);
+        './rules/style.js'
+    ].map(require.resolve)
 };

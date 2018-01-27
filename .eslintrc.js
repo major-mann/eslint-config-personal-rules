@@ -1,4 +1,8 @@
 module.exports = {
+    parserOptions: {
+        impliedStrict: true,
+        ecmaVersion: 2017
+    },
     env: {
         node: true
     },
